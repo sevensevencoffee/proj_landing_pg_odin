@@ -9,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 60px 8px 60px;
+    padding: 8px 90px 8px 90px;
     background-color: #1f2937;
     color: white;
     border: #1f2937;
@@ -35,7 +35,7 @@ a {
 .intro {
     display: flex;
     background-color: #1f2937;
-    padding: 30px 60px 30px 60px;
+    padding: 30px 90px 30px 90px;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
@@ -69,9 +69,60 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 60px 130px 100px 130px;
 }
 
 .container-2 {
     display: flex;
     justify-content: center;
+    gap: 3px;
 }
+
+.header-three {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.imgcard {
+    border-radius: 8px;
+}
+
+.testimonial {
+    padding: 100px 130px 100px 130px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-quote {
+    max-width: 700px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.text-name {
+    text-align: auto;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-left: 180px;
+}
+
+.CTA {
+    background-color: #f9faf8;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    margin: 60px 90px 60px 90px;
+    padding: 20px 80px 20px 80px;
+    border-radius: 20px;
+}
+
